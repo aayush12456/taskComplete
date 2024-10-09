@@ -35,9 +35,12 @@ const AddTodo = () => {
 
     return (
         <>
+        <div style={{display:"flex",justifyContent:'center'}}>
+            <p style={{fontSize:"2rem",marginTop:"2rem",fontWeight:'bold'}}>Todo List</p>
+        </div>
             <div>
                 <form onSubmit={todoSubmitHandler}>
-                    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '7rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
                         <Box
                             component="form"
                             sx={{ '& > :not(style)': { m: 1, width: '50ch' } }}
